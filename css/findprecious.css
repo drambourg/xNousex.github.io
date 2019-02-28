@@ -1,0 +1,54 @@
+*:hover,
+*:after,
+*:before {
+  transition: all 0.5s;
+}
+
+
+.carousel-item > img {
+  height: 300px;
+}
+section {
+  margin-top : 30px;
+  margin-bottom : 30px;
+}
+.card-img-top{
+  object-fit:cover;
+}
+
+.card-img-overlay > h2{
+  padding-top:0%;
+}
+
+.card > img {
+   opacity:0.3;
+}
+
+.card:hover > img {
+   opacity:1;
+}
+.card:hover > .card-img-overlay h2{
+  padding-top:30%;
+  opacity:1;
+}
+.card-img-overlay:hover > h2 {
+   opacity:1;
+}
+.card-img-overlay:hover > h3 {
+   display:none;
+}
+
+.badge{
+  white-space:normal !important;
+}
+
+.img-cardinline{
+  max-width:160px !important;
+  max-height:160px !important;
+}
+
+.styleheadcard{
+  margin-top:30px;
+}
+
+ul{  list-style: none;}
